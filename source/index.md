@@ -1,6 +1,6 @@
 ---
 title: BilinguaLab
-layout: "layouts/base.html"
+layout: "layouts/home.html"
 intro:
   eyebrow: 'Language is our field of research'
   main: 'Acquisition & Research'
