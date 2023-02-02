@@ -3,4 +3,4 @@ title: The team
 layout: "base.njk"
 ---
 
-The team is composed of highly trained
+The team is composed of highly trained linguists!
