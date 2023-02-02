@@ -1,6 +1,6 @@
 ---
 title: The team
-layout: "base.njk"
+layout: "team.njk"
 ---
 
 The team is composed of highly trained linguists!
