@@ -2,3 +2,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(163, 161, 161);
 }
+
+h1{
+    text-align: center;
+}
