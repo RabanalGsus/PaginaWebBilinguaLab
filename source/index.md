@@ -1,6 +1,14 @@
 ---
 title: BilinguaLab
-layout: "base.html"
+layout: "layouts/base.html"
+intro:
+  eyebrow: 'Language is our field of research'
+  main: 'Acquisition & Research'
+  summary: 'Leading eye-tracking research in Spain.'
+  buttonText: 'See our work'
+  buttonUrl: '/work'
+  image: '/images/bg/toast.jpg'
+  imageAlt: 'Eye-tracker'
 ---
 
 {% for team in collections.team %}

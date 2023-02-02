@@ -1,6 +1,6 @@
 ---
 title: Articles
-layout: "articles.html"
+layout: "layouts/articles.html"
 ---
 
 The last articles we have are the following:
