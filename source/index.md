@@ -2,8 +2,8 @@
 title: BilinguaLab
 layout: "layouts/home.html"
 intro:
-  eyebrow: 'Language is our field of research'
-  main: 'Acquisition & Research'
+  eyebrow: 'BilinguaLab: Language is our'
+  main: 'field of Research'
   summary: 'Leading eye-tracking research in Spain.'
   buttonText: 'See our work'
   buttonUrl: '/work'
