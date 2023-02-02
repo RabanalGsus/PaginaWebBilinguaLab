@@ -1,0 +1,25 @@
+{
+    "items": [
+      {
+        "text": "Home",
+        "url": "/"
+      },
+      {
+        "text": "About",
+        "url": "/about-us/"
+      },
+      {
+        "text": "Research",
+        "url": "/research/"
+      },
+      {
+        "text": "News",
+        "url": "/news/"
+      },
+      {
+        "text": "Contact",
+        "url": "/contact/"
+      }
+    ]
+  }
+  
