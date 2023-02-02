@@ -1,6 +1,6 @@
 ---
 title: BilinguaLab
-layout: "base.njk"
+layout: "base.html"
 ---
 
 {% for team in collections.team %}

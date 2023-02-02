@@ -3,6 +3,10 @@ module.exports = (function(eleventyConfig) {
     ("./source/style.css");
     
     return {
+        markdownTemplateEngine: 'njk',
+        dataTemplateEngine: 'njk',
+        htmlTemplateEngine: 'njk',
+
         dir:{
             input:"source",
             output: "public",
