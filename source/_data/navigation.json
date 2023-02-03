@@ -1,20 +1,20 @@
 {
     "items": [
       {
-        "text": "Home",
-        "url": "/"
-      },
-      {
-        "text": "About",
-        "url": "/about-us/"
+        "text": "Team",
+        "url": "/team/"
       },
       {
         "text": "Research",
         "url": "/research/"
       },
       {
-        "text": "News",
-        "url": "/news/"
+        "text": "Events",
+        "url": "/events/"
+      },
+      {
+        "text": "Collaborate",
+        "url": "/collaborate/"
       },
       {
         "text": "Contact",

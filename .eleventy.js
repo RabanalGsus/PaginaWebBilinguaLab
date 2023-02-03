@@ -3,6 +3,11 @@ module.exports = (function(eleventyConfig) {
     ("./source/style.css");
     eleventyConfig.addPassthroughCopy
     ('./source/images/');
+    config.addCollection('work', collection => {
+        return collection
+          .getFilteredByGlob('./src/work/*.md')
+          .sort((a, b) => (Number(a.data.displayOrder) > Number(b.data.displayOrder) ? 1 : -1));
+      });      
     
     return {
         markdownTemplateEngine: 'njk',
