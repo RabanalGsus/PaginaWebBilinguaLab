@@ -1,13 +1,20 @@
-module.exports = (function(eleventyConfig) {
+module.exports = (function(eleventyConfig) { const sortByDisplayOrder = require('./source/utils/sort-by-display-order.js');
     eleventyConfig.addPassthroughCopy
     ("./source/style.css");
     eleventyConfig.addPassthroughCopy
     ('./source/images/');
-    config.addCollection('work', collection => {
-        return collection
-          .getFilteredByGlob('./src/work/*.md')
-          .sort((a, b) => (Number(a.data.displayOrder) > Number(b.data.displayOrder) ? 1 : -1));
-      });      
+// Returns work items, sorted by display order
+    eleventyConfig.addCollection('work', collection => {
+    return sortByDisplayOrder(collection.getFilteredByGlob('./source/work/*.md'));
+  });
+  
+  // Returns work items, sorted by display order then filtered by featured
+    eleventyConfig.addCollection('featuredWork', collection => {
+    return sortByDisplayOrder(collection.getFilteredByGlob('./source/work/*.md')).filter(
+      x => x.data.featured
+    );
+  });
+  
     
     return {
         markdownTemplateEngine: 'njk',

@@ -6,7 +6,7 @@ intro:
   main: 'field of Research'
   summary: 'Leading eye-tracking research in Spain.'
   buttonText: 'See our work'
-  buttonUrl: '/work'
+  buttonUrl: '/work/'
   image: '/images/logo.jpeg'
   imageAlt: 'Peltor'
 primaryCTA:
@@ -15,4 +15,7 @@ primaryCTA:
     to Corpora compositions.'
   buttonText: 'Learn more at ResearchGate!'
   buttonUrl: 'https://www.researchgate.net/lab/BilinguaLab-Cristobal-Lozano'
+featuredWork:
+  title: 'Selected work'
+  summary: 'Some stuff that should give you an idea of what we’re all about.'
 ---
