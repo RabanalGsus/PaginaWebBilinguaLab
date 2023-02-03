@@ -7,7 +7,7 @@ intro:
   summary: 'Leading eye-tracking research in Spain.'
   buttonText: 'See our work'
   buttonUrl: '/work'
-  image: '/images/peltor.jpeg'
+  image: '/images/logo.jpeg'
   imageAlt: 'Peltor'
 primaryCTA:
   title: 'This lab is centred in the research of linguistics'
