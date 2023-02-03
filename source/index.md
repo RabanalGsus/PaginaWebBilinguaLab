@@ -9,6 +9,10 @@ intro:
   buttonUrl: '/work'
   image: '/images/peltor.jpeg'
   imageAlt: 'Peltor'
+primaryCTA:
+  title: 'This lab is centred in the research of linguistics'
+  summary: 'The themes researched are varied from Anaphora Resolution
+    to Corpora compositions.'
+  buttonText: 'Learn more at ResearchGate!'
+  buttonUrl: 'https://www.researchgate.net/lab/BilinguaLab-Cristobal-Lozano'
 ---
-
-Esto es un prueba de eleventy para la web de bilinguaLab.
