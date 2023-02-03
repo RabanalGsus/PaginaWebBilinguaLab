@@ -9,12 +9,12 @@
         <ul class="nav__list">
           {% for item in navigation.items %}
           <li>
-            <a href="{{ item.url }}">{{ item.text }}</a>
+            <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}
+              >{{ item.text }}</a
+            >
           </li>
           {% endfor %}
-          </li>
-        </ul>
-      </nav>
+        </ul>      
     </div>
   </div>
 </header>
