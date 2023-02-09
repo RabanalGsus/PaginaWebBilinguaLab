@@ -3,7 +3,8 @@ module.exports = (function(eleventyConfig) { const sortByDisplayOrder = require(
     ("./source/style.css");
     eleventyConfig.addPassthroughCopy
     ('./source/images/');
-// Returns work items, sorted by display order
+    
+  // Returns work items, sorted by display order
     eleventyConfig.addCollection('work', collection => {
     return sortByDisplayOrder(collection.getFilteredByGlob('./source/work/*.md'));
   });
